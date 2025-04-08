@@ -6,13 +6,11 @@ let task = [];
 
 document.addEventListener("DOMContentLoaded",() => {
 
-    clickMeBtn.addEventListener('click', () => {
+    clickMeBtn.addEventListener('click', () => {  
         tasks.push(input.value)
         
         const task = document.createElement("p")
         task.innerText -input.value;
         list.appendchild(task)
     })
-    
-
 })
